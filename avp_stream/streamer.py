@@ -14,7 +14,7 @@ YUP2ZUP = np.array([[[1, 0, 0, 0],
 
 class VisionProStreamer:
 
-    def __init__(self, ip, record = True): 
+    def __init__(self, ip, record = False): 
 
         # Vision Pro IP 
         self.ip = ip
